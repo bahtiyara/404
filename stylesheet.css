@@ -1,0 +1,155 @@
+body{
+  background-color: rgb(234,234,234);
+}
+
+p, h1{
+  font-family: "ALKATIP Basma Tom";
+  text-align: center;
+  color: rgb(86,86,86);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
+
+h1{
+  font-size: 2.5em;
+  margin-top: 50px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  text-rendering: optimizeLegibility;
+}
+
+.container{
+  display: block;
+  width: 471px;
+  height: auto;
+  margin: auto;
+  margin-top: 2%;
+}
+
+/*---------------moving brand------------*/
+@-webkit-keyframes movingb{
+  from {background-position-x: 96px;}
+  to {background-position-x: 190px;}
+}
+@-moz-keyframes movingb{
+  from {background-position-x: 96px;}
+  to {background-position-x: 190px;}
+}
+@-o-keyframes movingb{
+  from {background-position-x: 96px;}
+  to {background-position-x: 190px;}
+}
+@-ms-keyframes movingb{
+  from {background-position-x: 96px;}
+  to {background-position-x: 190px;}
+}
+@keyframes movingb{
+  from {background-position-x: 96px;}
+  to {background-position-x: 190px;}
+}
+/*-------------swing drop----------*/
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-5deg)}
+    50%{-webkit-transform:rotate(5deg)}
+    100%{-webkit-transform:rotate(-5deg)}
+}
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-5deg)}
+    50%{-moz-transform:rotate(5deg)}
+    100%{-moz-transform:rotate(-5deg)}
+}
+@-o-keyframes swing{
+    0%{-webkit-transform:rotate(-5deg)}
+    50%{-webkit-transform:rotate(5deg)}
+    100%{-webkit-transform:rotate(-5deg)}
+}
+@-ms-keyframes swing{
+    0%{-webkit-transform:rotate(-5deg)}
+    50%{-webkit-transform:rotate(5deg)}
+    100%{-webkit-transform:rotate(-5deg)}
+}
+keyframes swing{
+    0%{-webkit-transform:rotate(-5deg)}
+    50%{-webkit-transform:rotate(5deg)}
+    100%{-webkit-transform:rotate(-5deg)}
+}
+
+.button{
+  background-color: rgb(255,80,93);
+  color: white;
+  font-family: "ALKATIP Basma Tom";
+  display: block;
+  width: 186px;
+  height: 46px;
+  line-height: 49px;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+.bottle{
+  background: url(404.png) 0 100% no-repeat;
+  width: 331px;
+  height: 218px;
+  position: relative;
+  top: 0px;
+  left: 73px;
+}
+
+.brand{
+  background: url(404.png) 96px 0%;
+  width: 96px;
+  height: 41px;
+  position: relative;
+  top: 113px;
+  left: -153px;
+  -webkit-transform:rotate(-120deg);
+  -moz-transform:rotate(-120deg);
+  -o-transform:rotate(-120deg);
+  -ms-transform:rotate(-120deg);
+  transform:rotate(-120deg);
+  -webkit-animation:movingb 4s infinite;
+  -moz-animation:movingb 4s infinite;
+  -o-animation:movingb 4s infinite;
+  -ms-animation:movingb 4s infinite;
+  animation:movingb 4s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.dblfour{
+  background: url(404.png) 100% 25.6% no-repeat;
+  width: 237px;
+  height: 84px;
+  margin: auto;
+  margin-top: -60px;
+}
+
+.drop{
+  background: url(404.png) 72.65% 78.9% no-repeat;
+  width: 42px;
+  height: 68px;
+  margin: auto;
+  margin-top: 5%;
+  -webkit-animation:swing 3s infinite ease-in-out;
+  -webkit-transform-origin: center top;
+  -moz-animation: 3s ease 0s normal none infinite swing;
+  -moz-transform-origin: center top;
+  -o-animation: 3s ease 0s normal none infinite swing;
+  -o-transform-origin: center top;
+  -ms-animation: 3s ease 0s normal none infinite swing;
+  -ms-transform-origin: center top;
+  animation: 3s ease 0s normal none infinite swing;
+  transform-origin: center top;
+}
+
+
+
