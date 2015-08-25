@@ -1,0 +1,1 @@
+When you're making html pages, it's good to take a good name of classes.
