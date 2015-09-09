@@ -5,3 +5,6 @@ If this shows, it means git checkout would not be able to restore file in the st
 
 git checkout -- <file>  restore file in the working directory     // it changes the file in the working space
 git reset HEAD <file> unstage file in the staging area             // it doesn't change file in the working space
+
+
+some commit
