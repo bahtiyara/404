@@ -1,5 +1,5 @@
 This is the new recipe:
-	I want polo
+	I want leghmen
 
 If this shows, it means git checkout would not be able to restore file in the staging area.
 
